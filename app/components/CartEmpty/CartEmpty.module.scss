@@ -1,0 +1,28 @@
+@use "../styles" as *;
+
+.mainEmptyCartBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  .emptyCartIcon {
+    height: 60px;
+    width: 60px;
+    stroke: $navBarBGColor;
+    background-color: $white;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    margin-bottom: 1.5rem;
+    filter: drop-shadow(0 0 20px #00000038);
+}
+  .emptyCartHeading {
+    font-size: $font_40;
+    text-transform: uppercase;
+  }
+  .emptyCartSubHeading {
+    font-size: $font_24;
+    color: $navBarBGColor;
+  }
+}

@@ -1,0 +1,26 @@
+@use "../styles" as *;
+
+.mainCartItemsListContainer {
+  .cartHeading {
+    font-size: $font_32;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 2rem;
+  }
+  .cartLists {
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    height: calc(100vh - 350px);
+    overflow: auto;
+    padding-bottom: 2rem;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .mainCartItemsListContainer {
+    .cartHeading {
+      font-size: $font_40;
+    }
+  }
+}

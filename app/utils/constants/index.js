@@ -1,0 +1,9 @@
+export const YOUR_BAG = `Your Bag`;
+export const CURRENTLY_EMPTY = `Current is empty`;
+export const REMOVE_BTN = `Remove`;
+export const YES_BTN = `Yes`;
+export const NO_BTN = `No`;
+export const CLEAR_CART_BTN = `Clear Cart`;
+export const LOADING_DATA = `Loading...`;
+export const REMOVE_ALL_ITEMS_FROM_CART = `Remove all items from your shopping cart?`;
+export const TEXT_LOGO = `Redux Toolkit`;

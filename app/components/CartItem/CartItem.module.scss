@@ -1,0 +1,62 @@
+@use "../styles" as *;
+
+.mainCartItemContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2.5rem;
+  width: 100%;
+  .cartProducts {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .productImage {
+    width: 100px;
+  }
+  .addProducts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .productBtn {
+      background-color: transparent;
+      border: none;
+      .productsIcon {
+        width: 2rem;
+        height: 2rem;
+        color: $navBarBGColor;
+        cursor: pointer;
+      }
+    }
+  }
+  .productsContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .productTitle {
+    font-size: $font_16;
+  }
+  .productPrice {
+    font-size: $font_16;
+    font-weight: 500;
+  }
+  .productRemoveBtn {
+    border: none;
+    background-color: $navBarBGColor;
+    color: $white;
+    height: 2rem;
+    width: 5rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-weight: 600;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .mainCartItemContainer {
+    .cartProducts {
+      gap: 2.5rem;
+    }
+  }
+}

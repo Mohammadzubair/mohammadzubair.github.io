@@ -1,0 +1,15 @@
+@use "../styles" as *;
+
+.mainNavbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  background-color: $navBarBGColor;
+  padding: 16px 30px;
+  box-sizing: border-box;
+  color: $white;
+  .logo {
+    font-size: $font_24;
+  }
+}
